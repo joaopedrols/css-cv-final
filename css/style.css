@@ -1,0 +1,147 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 200%;
+}
+
+h1 {
+  font-size: 5.625rem;
+  /*  16px = 100% = 1em*/
+  margin: 50px auto o auto;
+  /*top,right,bottom,left*/
+  font-family: 'Courgette', cursive;
+  color: #7C9473;
+  line-height: 1;
+  /*setar a linha de espaçamento*/
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #7C9473;
+  font-weight: normal;
+  /*setar a grossura da fonte*/
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #7C9473;
+  font-size: 1.5rem;
+}
+hr{
+border-style: none;
+border-top-style: dotted;
+border-color: #6D8299;
+border-width: 5px;
+width: 5%;
+}
+
+a {
+  color: #7C9473;
+}
+
+.contact-me{
+margin: 100px auto 100px auto;
+}
+
+.top {
+  background-color: #CFDAC8;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle {
+
+}
+
+.bottom {
+  font-size: 1rem;
+  background-color: #CFDAC8;
+  line-height: 2;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+}
+
+.bt-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.perfil {
+  height: 200px;
+  margin-top: 50px;
+}
+
+.paragrafocent {
+  color: #7C9473;
+  font-weight: normal;
+}
+
+.paragrafo1 {
+  font-size: 1rem;
+}
+.profile{
+  margin: 50px auto 100px auto;
+}
+
+.skills{
+  margin: 100px auto 50px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 150px auto 150px auto;
+  /*margin: auto; pra centralizar*/
+  text-align: left;
+  line-height: 2;
+}
+
+.hab1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.hab2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+
+
+.button {
+   background: #CFDAC8;
+   background-image: -webkit-linear-gradient(top, #CFDAC8, #CFDAC8);
+   background-image: -moz-linear-gradient(top, #CFDAC8, #CFDAC8);
+   background-image: -ms-linear-gradient(top, #CFDAC8, #CFDAC8);
+   background-image: -o-linear-gradient(top, #CFDAC8, #CFDAC8);
+   background-image: -webkit-gradient(to bottom, #CFDAC8, #CFDAC8);
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   height: 35px;
+   line-height: 35px;
+   color: #7C9473;
+   font-family: Helvetica;
+   width: 179px;
+   font-size: 25px;
+   font-weight: 800;
+   padding: 9px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 50px;
+}
